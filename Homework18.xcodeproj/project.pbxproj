@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A190A4842C5746BA00DCF86A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A190A4832C5746BA00DCF86A /* main.cpp */; };
+		A190A4902C57470600DCF86A /* Source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A190A48B2C57470600DCF86A /* Source.cpp */; };
+		A190A4912C57470600DCF86A /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A190A48C2C57470600DCF86A /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,12 @@
 
 /* Begin PBXFileReference section */
 		A190A4802C5746BA00DCF86A /* Homework18 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework18; sourceTree = BUILT_PRODUCTS_DIR; };
-		A190A4832C5746BA00DCF86A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A190A48A2C57470600DCF86A /* testdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testdata.txt; sourceTree = "<group>"; };
+		A190A48B2C57470600DCF86A /* Source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Source.cpp; sourceTree = "<group>"; };
+		A190A48C2C57470600DCF86A /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		A190A48D2C57470600DCF86A /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		A190A48E2C57470600DCF86A /* Functors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functors.h; sourceTree = "<group>"; };
+		A190A48F2C57470600DCF86A /* secret.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secret.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,12 @@
 		A190A4822C5746BA00DCF86A /* Homework18 */ = {
 			isa = PBXGroup;
 			children = (
-				A190A4832C5746BA00DCF86A /* main.cpp */,
+				A190A48E2C57470600DCF86A /* Functors.h */,
+				A190A48C2C57470600DCF86A /* Node.cpp */,
+				A190A48D2C57470600DCF86A /* Node.h */,
+				A190A48F2C57470600DCF86A /* secret.txt */,
+				A190A48B2C57470600DCF86A /* Source.cpp */,
+				A190A48A2C57470600DCF86A /* testdata.txt */,
 			);
 			path = Homework18;
 			sourceTree = "<group>";
@@ -119,7 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A190A4842C5746BA00DCF86A /* main.cpp in Sources */,
+				A190A4912C57470600DCF86A /* Node.cpp in Sources */,
+				A190A4902C57470600DCF86A /* Source.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
